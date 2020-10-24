@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    line-height: 25px;
+    font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+}
+.fb-header {
+    background-color: #4867AA;
+    width: 100%;
+    height: 73px;
+    overflow: hidden;
+}
+.containar {
+    width: 1164px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.fb-header .containar .left-head {
+    width: 55%;
+    float: left;
+}
+.fb-header .containar .right-head {
+    width: 45%;
+    float: left;
+}
+.fb-header .containar .left-head .logo img {
+    margin: 6px 0px 0px 2px;
+}
+.right-head form {
+    overflow: hidden;
+    float: right;
+    /* padding-top: 0px; */
+}
+.right-head .emai-or-phn,
+.pasword,
+.lon-in {
+    display: block;
+    float: left;
+    margin-top: -2px;
+    overflow: hidden;
+}
+.right-head label {
+    display: block;
+    font-size: 12px;
+    color: white;
+}
+.right-head form .pasword a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+.right-head input[type="text"],
+.right-head input[type="password"] {
+    border: 1px solid black;
+    font-size: 18px;
+    width: 150px;
+}
+.right-head input[type="submit"] {
+    border: 1px solid #08298A;
+    background-color: #084B8A;
+    height: 22px;
+    margin-top: 27px;
+    margin-left: 12px;
+    padding: 2px 4px;
+    text-align: center;
+    color: white;
+}
+.right-head .emai-or-phn {
+    margin-right: 18px;
+}
+.right-head form {
+    overflow: hidden;
+    float: right;
+}
+
+/*stard middel content*/
+
+.middel {
+    background-color: #EAEDF4;
+    background-image: linear-gradient(#F5F6FB 20%, #EAEDF4 50%);
+}
+.middel .left-area {
+    width: 55%;
+    float: left;
+}
+.middel .right-area {
+    width: 45%;
+    float: right;
+}
+.right-area .right-area-inside {
+    float: right;
+}
+.left-area .para p {
+    margin-top: 35px;
+    font-size: 20px;
+    width: 450px;
+    color: #123650;
+    font-weight: 600;
+}
+.left-area img {
+    margin-top: 35px;
+    width: 545px;
+    height: auto;
+}
+.right-area h1 {
+    font-size: 37px;
+    margin-top: 15px;
+    color: #2E2E2E;
+}
+.right-area h3 {
+    font-weight: normal;
+    margin: 14px 0px 10px 0px;
+}
+.right-area .fast-and-sur .half-1,
+.half-2 {
+    display: inline;
+}
+.fast-and-sur [type="text"] {
+    font-size: 19px;
+    width: 188px;
+    border-radius: 5px;
+}
+.right-area .mil-or-pass [type="text"],
+.right-area .mil-or-pass [type="password"] {
+    display: block;
+    width: 382px;
+    margin: 12px 0px;
+    font-size: 19px;
+    border-radius: 5px;
+}
+.right-area .Birthday h3 {
+    font-weight: normal;
+    margin: 14px 0px 10px 0px;
+    color: #272C32;
+}
+.right-area .Birthday {
+    display: inline;
+}
+.right-area .Birthday .Birthday-select select {
+    border: 1px solid #231818;
+    padding: 3px;
+    margin: 0;
+    border-radius: 4px;
+    display: inline;
+    float: left;
+    overflow: hidden;
+}
+.right-area .Birthday .birth-link {
+    width: 160px;
+    overflow: hidden;
+}
+.right-area .Birthday .birth-link a {
+    margin-left: 10px;
+    width: 150px;
+    color: #045FB4;
+    text-decoration: none;
+    font-size: 11px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 15px;
+}
+.right-area .Birthday .birth-link a:hover {
+    text-decoration: underline;
+}
+.right-area .gender {
+    margin-top: 10px 0px;
+    font-weight: bold;
+}
+.right-area .gender .div-1,
+.div-2 {
+    margin: 8px 10px 8px 0px;
+    display: inline-block;
+}
+.right-area .para-2 {
+    font-size: 11px;
+    color: #424242;
+    width: 338px;
+    line-height: 16px;
+    margin-bottom: 11px;
+}
+.right-area .para-2 a {
+    text-decoration: none;
+    color: #0495D3;
+}
+.right-area .para-2 a:hover {
+    text-decoration: underline;
+}
+.right-area input[type="submit"] {
+    width: 205px;
+    height: 45px;
+    text-align: center;
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Freight Sans Bold', helvetica, arial, sans-serif !important;
+    font-weight: bold !important;
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+}
+.right-area .last-para {
+    font-size: 14px;
+    margin: 10px 0px;
+}
+.right-area .last-para a {
+    text-decoration: none;
+    color: #0493D1
+}
+.right-area .last-para a:hover {
+    text-decoration: underline;
+}
+
+/*footer-stard*/
+
+.div-cler {
+    content: "";
+    clear: both;
+}
+.footer a {
+    text-decoration: none;
+    padding: 0px 31px 10px 0px;
+    color: #375A96;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.footer .footer-1 {}
+hr {
+    border: none;
+    border-bottom: 2px solid #DDDFE2;
+    margin-top: 7px;
+}
+.footer .footer-1 .fast {
+    color: #A0738A;
+}
+/*
+.footer .footer-2 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+*/
+.footer .footer-2 li{
+       width: 128px;
+    list-style-type: none;
+    display: inline-block;
+}
